@@ -62,10 +62,10 @@ class Vocabulary(object):
         :returns: returns API links to urbandictionary, wordnik, glosbe, bighugelabs
         """
         api_name2links = {
-            "wordnik": "http://api.wordnik.com/v4/word.json/{word}/{action}?api_key=1e940957819058fe3ec7c59d43c09504b400110db7faa0509",
-            "glosbe": "https://glosbe.com/gapi/translate?from={source_lang}&dest={dest_lang}&format=json&pretty=true&phrase={word}",
-            "urbandict": "http://api.urbandictionary.com/v0/{action}?term={word}",
-            "bighugelabs": "http://words.bighugelabs.com/api/2/eb4e57bb2c34032da68dfeb3a0578b68/{word}/json"
+            "wordnik": u"http://api.wordnik.com/v4/word.json/{word}/{action}?api_key=1e940957819058fe3ec7c59d43c09504b400110db7faa0509",
+            "glosbe": u"https://glosbe.com/gapi/translate?from={source_lang}&dest={dest_lang}&format=json&pretty=true&phrase={word}",
+            "urbandict": u"http://api.urbandictionary.com/v0/{action}?term={word}",
+            "bighugelabs": u"http://words.bighugelabs.com/api/2/eb4e57bb2c34032da68dfeb3a0578b68/{word}/json"
         }
 
         if api in api_name2links.keys():
